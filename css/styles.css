@@ -1,0 +1,46 @@
+:root {
+  --main-title-color: #212121;
+  --second-title-color: #ffffff;
+  --third-title-color: #757575;
+  --first-text-color: #757575;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --main-bg-color: #ffffff;
+  --second-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.header-list {
+  color: yellow;
+}
