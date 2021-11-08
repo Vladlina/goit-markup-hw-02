@@ -28,7 +28,6 @@ body {
 
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -224,7 +223,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-  background-color: var(--current-white-color);
+  background-color: var(--third-bg-color);
   border: 0;
   border-radius: 4px;
 }
