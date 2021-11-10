@@ -27,8 +27,8 @@ body {
 /* -------------------------------- Header---------------------------- */
 
 .logo {
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -68,7 +68,7 @@ body {
   color: var(--first-text-color);
 }
 .header-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -96,7 +96,7 @@ body {
   cursor: pointer;
   font-family: inherit;
   font-style: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -106,6 +106,8 @@ body {
   color: var(--current-white-color);
   background-color: var(--accent-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  border: 0px;
 }
 
 .hero-button:hover,
@@ -129,7 +131,7 @@ body {
 }
 
 .special-qualities-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -138,7 +140,6 @@ body {
 }
 
 .special-qualities-info {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -149,7 +150,7 @@ body {
 
 .what-we-do-header,
 .our-team-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -237,7 +238,7 @@ body {
 
 /* ------------------------------- Cards ---------------------------------*/
 .cards-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
